@@ -27,8 +27,16 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('Inicio')),
-      body: const Center(child: Text('¡Bienvenido a tu nueva app Flutter!')),
+      body: Center(
+        child: Text(
+          'RPAGO',
+          style: TextStyle(
+            fontSize: 70,
+            fontWeight: FontWeight.w800,
+            fontFamily: 'BalooChettan2',
+          ),
+        ),
+      ),
     );
   }
 }
